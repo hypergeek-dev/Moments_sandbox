@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useHistory, useParams } from "react-router-dom";
 import { Form, Button, Row, Col, Container, Card, Alert } from "react-bootstrap";
-import { axiosReq } from "../api/AxiosDefaults";
+import { axiosReq } from "../api/axiosDefaults";
 import { useCurrentUser, useSetCurrentUser } from "../auth/AuthContext";
 
 const ProfileEditForm = () => {

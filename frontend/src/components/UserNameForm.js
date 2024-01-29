@@ -8,7 +8,7 @@ import Form from "react-bootstrap/Form";
 import Row from "react-bootstrap/Row";
 
 import { useHistory, useParams } from "react-router-dom";
-import { axiosRes } from "../api/AxiosDefaults";
+import { axiosRes } from "../api/axiosDefaults";
 import {
   useCurrentUser,
   useSetCurrentUser,

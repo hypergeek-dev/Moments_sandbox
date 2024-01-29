@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Col, Row, Container, Card } from "react-bootstrap";
-import { axiosReq } from "../api/AxiosDefaults";
+import { axiosReq } from "../api/axiosDefaults";
 import { useCurrentUser } from "../auth/AuthContext";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUserEdit } from "@fortawesome/free-solid-svg-icons";
